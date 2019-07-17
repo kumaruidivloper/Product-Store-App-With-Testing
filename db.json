@@ -12,7 +12,7 @@
       "name": "Bahubali DVD",
       "description": "Raised in a remote tribal village, Shivudu grows up a carefree young man who relentlessly pursues his heart\"s desire.",
       "isAvailable": false,
-      "price": 299
+      "price": 29933
     },
     {
       "name": "Kumar",
@@ -22,11 +22,18 @@
       "id": 4
     },
     {
-      "name": "Kumar`",
-      "description": "dsfddff",
-      "price": 10000,
-      "isAvailable": true,
-      "id": 5
+      "name": "Source Code",
+      "description": "Movie [Time Reassignment]",
+      "price": 1000,
+      "isAvailable": false,
+      "id": 6
+    },
+    {
+      "name": "Monster",
+      "description": "RTamil Movie",
+      "price": 203,
+      "isAvailable": false,
+      "id": 7
     }
   ],
   "customers": [
