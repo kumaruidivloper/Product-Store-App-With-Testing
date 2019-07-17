@@ -1,13 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
+import { AppNavComponent } from './features/app-nav/app-nav.component';
+import { NotFoundComponent } from './features/not-found/not-found.component';
+
 import { HomeComponent } from './features/home/home.component';
+
 import { ProductsComponent } from './features/products/products.component';
 import { ProductFormComponent } from './features/product-form/product-form.component';
 import { ProductDetailComponent } from './features/product-detail/product-detail.component';
-import { NotFoundComponent } from './features/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +22,14 @@ import { NotFoundComponent } from './features/not-found/not-found.component';
     ProductsComponent,
     ProductFormComponent,
     ProductDetailComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    AppNavComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
