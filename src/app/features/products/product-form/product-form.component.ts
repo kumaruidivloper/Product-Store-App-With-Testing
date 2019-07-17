@@ -2,9 +2,9 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 
-import { Product } from '../../core/interfaces/product';
-import { ProductsService } from '../../core/services/products.service';
-import { AppError } from '../../core/components/common/app-error';
+import { Product } from '../../../core/interfaces/product';
+import { ProductsService } from '../../../core/services/products.service';
+import { AppError } from '../../../core/components/common/app-error';
 
 @Component({
   selector: 'app-product-form',

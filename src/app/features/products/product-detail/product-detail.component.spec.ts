@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { Subject } from 'rxjs';
 
 import { ProductDetailComponent } from './product-detail.component';
-import { ProductsService } from '../../core/services/products.service';
+import { ProductsService } from '../../../core/services/products.service';
 
 class ActivatedRouteStub {
   private subject = new Subject();

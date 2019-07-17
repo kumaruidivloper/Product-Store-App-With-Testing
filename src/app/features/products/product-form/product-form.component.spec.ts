@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { Observable, empty } from 'rxjs';
 
 import { ProductFormComponent } from './product-form.component';
-import { ProductsService } from '../../core/services/products.service';
+import { ProductsService } from '../../../core/services/products.service';
 
 xdescribe('ProductFormComponent', () => {
   let fixture: ComponentFixture<ProductFormComponent>;

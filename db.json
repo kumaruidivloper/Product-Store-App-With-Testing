@@ -34,6 +34,13 @@
       "price": 203,
       "isAvailable": false,
       "id": 7
+    },
+    {
+      "name": "sadsa",
+      "description": "dsad",
+      "price": null,
+      "isAvailable": false,
+      "id": 8
     }
   ],
   "customers": [
